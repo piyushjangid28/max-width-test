@@ -1,0 +1,1043 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+}
+.navbarmain{
+    height: 50px;
+    width: 80%;
+    background-color: black;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+}
+.menu ul li a{
+        text-decoration: none;
+}
+
+.logo
+{
+    height: 50px;
+    width: 10%;
+justify-items: center;
+align-content: center;
+color: white;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+.menu ul li{
+    list-style: none;
+}
+.menu ul li a{
+    color: white;
+}
+.menu{
+    height: 50px;
+    width:30%;
+     align-content: center;
+   
+}
+.menu2{
+    height: 50px;
+    width: 20%;
+    align-content: center;
+}
+.menu2 ul{
+    display: flex;
+    justify-content: space-around;
+}
+.menu2 ul li{
+    list-style: none;
+}
+.menu2 ul li a{
+    color: rgb(249, 248, 248);
+        text-decoration: none;
+}
+
+.navbarmain2{
+    height: 50px;
+    width: 20%;
+    background-color: rgb(0, 8, 92);
+    right: 0%;
+    position:absolute;
+    align-content: center;
+}
+.navbarmain2 ul{
+    display: flex;
+    justify-content: space-around;
+}
+.navbarmain2 ul li{
+    list-style: none;   
+}
+.navbarmain2 ul li a{
+    color: rgb(254, 253, 253);
+        text-decoration: none;
+}
+.submenu{
+    height: 50px;
+    width: 100%;
+    background-color:white;
+    
+}
+.submenumain{
+     height: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
+.submenumain1{
+    margin-left: 20px;
+    height: 50px;
+    width: 100px;
+    align-content: center; 
+}
+.submenumain1 a{
+    color: gray;
+    font-weight: 600;
+}
+.banner{
+    height: 630px;
+    width: 100%;
+    background-color: red;
+    background-image: url(images/nike\ shoes.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bannercontent{
+    height: 190px;
+    width: 100%;
+    background-color: rgb(246, 241, 241);
+    color: black;
+    justify-items: center;
+    align-content: center;
+}
+.shoes{
+    height: 300px;
+    width: 100%;
+    background-color:  rgb(246, 241, 241);
+}
+.shoesmain{
+    height: 300px;
+    width: 80%;
+    background-color:  rgb(246, 241, 241);
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.shoes1{
+    background-color: rgb(246, 241, 241);
+    height: 260px;
+    width: 230px;
+    justify-items: center;
+}
+.shoes1 img{
+    height: 200px;
+    width: 200px;
+    display: block;
+}
+.changemain{
+    height: 150px;
+    width: 100%;
+    justify-items: center;
+    background-color: rgb(246, 241, 241);
+}
+.changemain p{
+    padding-top: 40px;
+}
+.foot{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.div3 img{
+    height: 30px;
+    width: 30px;
+}
+
+
+@media (max-width:1600px) {
+    
+    .navbar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+}
+.navbarmain{
+    height: 50px;
+    width: 80%;
+    background-color: black;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+}
+.menu ul li a{
+        text-decoration: none;
+}
+
+.logo
+{
+    height: 50px;
+    width: 10%;
+justify-items: center;
+align-content: center;
+color: white;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+.menu ul li{
+    list-style: none;
+}
+.menu ul li a{
+    color: white;
+}
+.menu{
+    height: 50px;
+    width:30%;
+     align-content: center;
+   
+}
+.menu2{
+    height: 50px;
+    width: 20%;
+    align-content: center;
+}
+.menu2 ul{
+    display: flex;
+    justify-content: space-around;
+}
+.menu2 ul li{
+    list-style: none;
+}
+.menu2 ul li a{
+    color: rgb(249, 248, 248);
+        text-decoration: none;
+}
+
+.navbarmain2{
+    height: 50px;
+    width: 20%;
+    background-color: rgb(0, 8, 92);
+    right: 0%;
+    position:absolute;
+    align-content: center;
+}
+.navbarmain2 ul{
+    display: flex;
+    justify-content: space-around;
+}
+.navbarmain2 ul li{
+    list-style: none;   
+}
+.navbarmain2 ul li a{
+    color: rgb(254, 253, 253);
+        text-decoration: none;
+}
+.submenu{
+    height: 50px;
+    width: 100%;
+    background-color:white;
+    
+}
+.submenumain{
+     height: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
+.submenumain1{
+    margin-left: 20px;
+    height: 50px;
+    width: 100px;
+    align-content: center; 
+}
+.submenumain1 a{
+    color: gray;
+    font-weight: 600;
+}
+.banner{
+    height: 630px;
+    width: 100%;
+    background-color: red;
+    background-image: url(images/nike\ shoes.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bannercontent{
+    height: 190px;
+    width: 100%;
+    background-color: rgb(246, 241, 241);
+    color: black;
+    justify-items: center;
+    align-content: center;
+}
+.shoes{
+    height: 300px;
+    width: 100%;
+    background-color:  rgb(246, 241, 241);
+}
+.shoesmain{
+    height: 300px;
+    width: 80%;
+    background-color:  rgb(246, 241, 241);
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.shoes1{
+    background-color: rgb(246, 241, 241);
+    height: 260px;
+    width: 230px;
+    justify-items: center;
+}
+.shoes1 img{
+    height: 200px;
+    width: 200px;
+    display: block;
+}
+.changemain{
+    height: 150px;
+    width: 100%;
+    justify-items: center;
+    background-color: rgb(246, 241, 241);
+}
+.changemain p{
+    padding-top: 40px;
+}
+.foot{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.div3 img{
+    height: 30px;
+    width: 30px;
+}
+}
+
+@media (max-width:1200px){
+    .navbar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+}
+.navbarmain{
+    height: 50px;
+    width: 80%;
+    background-color: black;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+}
+.menu ul li a{
+        text-decoration: none;
+}
+
+.logo
+{
+    height: 50px;
+    width: 10%;
+justify-items: center;
+align-content: center;
+color: white;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+.menu ul li{
+    list-style: none;
+}
+.menu ul li a{
+    color: white;
+}
+.menu{
+    height: 50px;
+    width:30%;
+     align-content: center;
+   
+}
+.menu2{
+    height: 50px;
+    width: 20%;
+    align-content: center;
+}
+.menu2 ul{
+    display: flex;
+    justify-content: space-around;
+}
+.menu2 ul li{
+    list-style: none;
+}
+.menu2 ul li a{
+    color: rgb(249, 248, 248);
+        text-decoration: none;
+}
+
+.navbarmain2{
+    height: 50px;
+    width: 20%;
+    background-color: rgb(0, 8, 92);
+    right: 0%;
+    position:absolute;
+    align-content: center;
+}
+.navbarmain2 ul{
+    display: flex;
+    justify-content: space-around;
+}
+.navbarmain2 ul li{
+    list-style: none;   
+}
+.navbarmain2 ul li a{
+    color: rgb(254, 253, 253);
+        text-decoration: none;
+}
+.submenu{
+    height: 50px;
+    width: 100%;
+    background-color:white;
+    
+}
+.submenumain{
+     height: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
+.submenumain1{
+    margin-left: 20px;
+    height: 50px;
+    width: 100px;
+    align-content: center; 
+}
+.submenumain1 a{
+    color: gray;
+    font-weight: 600;
+}
+.banner{
+    height: 630px;
+    width: 100%;
+    background-color: red;
+    background-image: url(images/nike\ shoes.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bannercontent{
+    height: 190px;
+    width: 100%;
+    background-color: rgb(246, 241, 241);
+    color: black;
+    justify-items: center;
+    align-content: center;
+}
+.shoes{
+    height: 300px;
+    width: 100%;
+    background-color:  rgb(246, 241, 241);
+}
+.shoesmain{
+    height: 300px;
+    width: 80%;
+    background-color:  rgb(246, 241, 241);
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.shoes1{
+    background-color: rgb(246, 241, 241);
+    height: 260px;
+    width: 230px;
+    justify-items: center;
+}
+.shoes1 img{
+    height: 200px;
+    width: 200px;
+    display: block;
+}
+.changemain{
+    height: 150px;
+    width: 100%;
+    justify-items: center;
+    background-color: rgb(246, 241, 241);
+}
+.changemain p{
+    padding-top: 40px;
+}
+.foot{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.div3 img{
+    height: 30px;
+    width: 30px;
+}
+}
+
+@media (max-width:760px){
+    .navbar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+}
+.navbarmain{
+    height: 50px;
+    width: 80%;
+    background-color: black;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+}
+.menu ul li a{
+        text-decoration: none;
+}
+
+.logo
+{
+    height: 50px;
+    width: 10%;
+justify-items: center;
+align-content: center;
+color: white;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+.menu ul li{
+    list-style: none;
+}
+.menu ul li a{
+    color: white;
+}
+.menu{
+    height: 50px;
+    width:30%;
+     align-content: center;
+   
+}
+.menu2{
+    height: 50px;
+    width: 20%;
+    align-content: center;
+}
+.menu2 ul{
+    display: flex;
+    justify-content: space-around;
+}
+.menu2 ul li{
+    list-style: none;
+}
+.menu2 ul li a{
+    color: rgb(249, 248, 248);
+        text-decoration: none;
+}
+
+.navbarmain2{
+    height: 50px;
+    width: 20%;
+    background-color: rgb(0, 8, 92);
+    right: 0%;
+    position:absolute;
+    align-content: center;
+}
+.navbarmain2 ul{
+    display: flex;
+    justify-content: space-around;
+}
+.navbarmain2 ul li{
+    list-style: none;   
+}
+.navbarmain2 ul li a{
+    color: rgb(254, 253, 253);
+        text-decoration: none;
+}
+.submenu{
+    height: 50px;
+    width: 100%;
+    background-color:white;
+    
+}
+.submenumain{
+     height: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
+.submenumain1{
+    margin-left: 20px;
+    height: 50px;
+    width: 100px;
+    align-content: center; 
+}
+.submenumain1 a{
+    color: gray;
+    font-weight: 600;
+}
+.banner{
+    height: 630px;
+    width: 100%;
+    background-color: red;
+    background-image: url(images/nike\ shoes.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bannercontent{
+    height: 190px;
+    width: 100%;
+    background-color: rgb(246, 241, 241);
+    color: black;
+    justify-items: center;
+    align-content: center;
+}
+.shoes{
+    height: 300px;
+    width: 100%;
+    background-color:  rgb(246, 241, 241);
+}
+.shoesmain{
+    height: 300px;
+    width: 80%;
+    background-color:  rgb(246, 241, 241);
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.shoes1{
+    background-color: rgb(246, 241, 241);
+    height: 260px;
+    width: 230px;
+    justify-items: center;
+}
+.shoes1 img{
+    height: 200px;
+    width: 200px;
+    display: block;
+}
+.changemain{
+    height: 150px;
+    width: 100%;
+    justify-items: center;
+    background-color: rgb(246, 241, 241);
+}
+.changemain p{
+    padding-top: 40px;
+}
+.foot{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.div3 img{
+    height: 30px;
+    width: 30px;
+}
+}
+   
+
+
+
+@media (max-width:480px){
+  .navbar{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.navbarmain{
+    height: 500px;
+    width: 80%;
+    background-color: black;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu ul li a{
+        text-decoration: none;
+}
+
+.logo
+{
+    height: 50px;
+    width: 10%;
+justify-items: center;
+align-content: center;
+color: white;
+}
+.menu ul{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+
+}
+.menu ul li{
+    list-style: none;
+}
+.menu ul li a{
+    color: white;
+}
+.menu{
+    height: 50px;
+    width:100%;
+     align-content: center;
+     justify-items: center;
+   
+}
+.menu2{
+    height: 50px;
+    width: 20%;
+    align-content: center;
+}
+.menu2 ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.menu2 ul li{
+    list-style: none;
+}
+.menu2 ul li a{
+    color: rgb(249, 248, 248);
+        text-decoration: none;
+}
+
+.navbarmain2{
+    height: 500px;
+    width: 20%;
+    background-color: rgb(0, 8, 92);
+    right: 0%;
+    position:absolute;
+    align-content: center;
+    justify-items: end;
+}
+.navbarmain2 ul{
+    display: flex;
+    flex-direction: column;
+}
+.navbarmain2 ul li{
+    list-style: none;   
+}
+.navbarmain2 ul li a{
+    color: rgb(254, 253, 253);
+        text-decoration: none;
+}
+.submenu{
+    height: 200px;
+    width: 100%;
+    background-color:white;
+    
+}
+.submenumain{
+     height: 200px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+
+}
+.submenumain1{
+    margin-left: 170px;
+    height: 50px;
+    width: 100px;
+    align-content: center; 
+    justify-items: center;
+}
+.submenumain1 a{
+    color: gray;
+    font-weight: 600;
+}
+.banner{
+    height: 330px;
+    width: 100%;
+    background-color: red;
+    background-image: url(images/nike\ shoes.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bannercontent{
+    height: 190px;
+    width: 100%;
+    background-color: rgb(246, 241, 241);
+    color: black;
+    justify-items: center;
+    align-content: center;
+}
+.shoes{
+    height: 900px;
+    width: 100%;
+    background-color:  rgb(246, 241, 241);
+}
+.shoesmain{
+    height: 900px;
+    width: 80%;
+    background-color:  rgb(246, 241, 241);
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.shoes1{
+    background-color: rgb(246, 241, 241);
+    height: 280px;
+    width: 230px;
+    justify-items: center;
+}
+.shoes1 img{
+    height: 200px;
+    width: 200px;
+    display: block;
+}
+.changemain{
+    height: 150px;
+    width: 100%;
+    justify-items: center;
+    background-color: rgb(246, 241, 241);
+}
+.changemain p{
+    padding-top: 40px;
+}
+.foot{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.div3 img{
+    height: 30px;
+    width: 30px;
+}
+}
+
+
+
+@media (max-width:320px){
+  .navbar{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.navbarmain{
+    height: 500px;
+    width: 80%;
+    background-color: black;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu ul li a{
+        text-decoration: none;
+}
+
+.logo
+{
+    height: 50px;
+    width: 10%;
+justify-items: center;
+align-content: center;
+color: white;
+}
+.menu ul{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+
+}
+.menu ul li{
+    list-style: none;
+}
+.menu ul li a{
+    color: white;
+}
+.menu{
+    height: 50px;
+    width:100%;
+     align-content: center;
+     justify-items: center;
+   
+}
+.menu2{
+    height: 50px;
+    width: 20%;
+    align-content: center;
+}
+.menu2 ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.menu2 ul li{
+    list-style: none;
+}
+.menu2 ul li a{
+    color: rgb(249, 248, 248);
+        text-decoration: none;
+}
+
+.navbarmain2{
+    height: 500px;
+    width: 20%;
+    background-color: rgb(0, 8, 92);
+    right: 0%;
+    position:absolute;
+    align-content: center;
+    justify-items: end;
+}
+.navbarmain2 ul{
+    display: flex;
+    flex-direction: column;
+}
+.navbarmain2 ul li{
+    list-style: none;   
+}
+.navbarmain2 ul li a{
+    color: rgb(254, 253, 253);
+        text-decoration: none;
+}
+.submenu{
+    height: 200px;
+    width: 100%;
+    background-color:white;
+    
+}
+.submenumain{
+     height: 200px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+
+}
+.submenumain1{
+    margin-left: 100px;
+    height: 50px;
+    width: 100px;
+    align-content: center; 
+    justify-items: center;
+}
+.submenumain1 a{
+    color: gray;
+    font-weight: 600;
+}
+.banner{
+    height: 330px;
+    width: 100%;
+    background-color: red;
+    background-image: url(images/nike\ shoes.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bannercontent{
+    height: 190px;
+    width: 100%;
+    background-color: rgb(246, 241, 241);
+    color: black;
+    justify-items: center;
+    align-content: center;
+}
+.shoes{
+    height: 900px;
+    width: 100%;
+    background-color:  rgb(246, 241, 241);
+}
+.shoesmain{
+    height: 900px;
+    width: 80%;
+    background-color:  rgb(246, 241, 241);
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.shoes1{
+    background-color: rgb(246, 241, 241);
+    height: 280px;
+    width: 230px;
+    justify-items: center;
+}
+.shoes1 img{
+    height: 200px;
+    width: 200px;
+    display: block;
+}
+.changemain{
+    height: 150px;
+    width: 100%;
+    justify-items: center;
+    background-color: rgb(246, 241, 241);
+}
+.changemain p{
+    padding-top: 40px;
+}
+.foot{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.div3 img{
+    height: 30px;
+    width: 30px;
+}
+}
